@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from "react-dom";
-import App from "./components/App";
-
+import MemoApp from "./MemoApp"
 
 const rootElement = document.getElementById("root");
-render(<App />, rootElement);
+render(<MemoApp />, rootElement);
